@@ -2,7 +2,8 @@
 Generate C2 dataset with custom jitter
 
 This code generates a dataset with simulated jitter, replicating the behavior of C2 code in introducing delays between beacons. The jitter distribution is incorporated into the timestamp values of each log in the dataset. 
-
+You can generate 1 year beaconing dataset in seconds.
+ 
 
 ```
 % ./jitterg -starttime 2023-10-20T15:04:22 -jitter 900s-10% -duration 4h
